@@ -90,8 +90,7 @@ console.log(` la variable "compras = ${compras.toUpperCase()}" contiene ${compra
 // Indicar su tipo de dato
 // Indicar cuántos caracteres tiene
 
-let numeroCasa = "456"
-let numeroCasaTexto
+
 // 7️⃣ Identificación personal extendida
 // Crea las variables:
 // nombre: Diego
@@ -101,6 +100,10 @@ let numeroCasaTexto
 // Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 // Muestre todo en MAYÚSCULAS
 
+let nombre2 = "diego"
+let apellido = " rojas"
+console.log( `NOMBRE COMPLETO ${nombre2.toUpperCase() + apellido.toUpperCase()} Y EL NOMBRE COMPLETO TIENE ${nombre2.length + apellido.length} CARACTERES` )
+
 // 8️⃣ Verificación de contenido
 // Crea la variable:
 // frase: Hoy aprenderemos sobre strings
@@ -108,6 +111,9 @@ let numeroCasaTexto
 // Si contiene la palabra "strings"
 // La frase en MAYÚSCULAS
 // La cantidad de caracteres
+
+let frase = "hoy aprenderemos sobre strings"
+console.log(`la frase "${frase.toUpperCase()}" contiene ${frase.length} caracteres y contiene la palabras "strings"`);
 
 // 9️⃣ Comparación de formatos
 // Crea la variable:
@@ -118,6 +124,9 @@ let numeroCasaTexto
 // El texto en mayúsculas
 // La cantidad de caracteres
 
+let texto= "programar es divertido"
+console.log(`la cantidad de caracteres en la variable "${texto}" (texto) contiene ${texto.length} caracteres
+    en mayuscúlas: ${texto.toUpperCase()}. en minúsculas: ${texto.toLowerCase()}`)
 // 🔟 Desafío completo integrado
 // Crea las variables:
 // curso: 4C
@@ -128,6 +137,10 @@ let numeroCasaTexto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
 
+let curso = "4°C"
+let año = "2026"
+console.log(`EL CURSO ${curso.toUpperCase()} DEL AÑO ${año.toUpperCase()}`);
+console.log("la variable año es un tipo de dato: " + typeof año);
 // ⭐ Desafío extra (nivel alto)
 // Crea la variable:
 // textoFinal: Estoy listo para el desafío
