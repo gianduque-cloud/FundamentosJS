@@ -19,14 +19,22 @@ function edadProyectada(){
 // Muestra el resultado
 function compraDescuentro(){
     let precio= 25000;
-    alert(`un prod`)
+    alert(`un producto de ${precio}
+        \nCon descuento del 20% le baja a ${precio*0.2}`
+    );
 };
 // 🔹 Ejercicio 3: Promedio de notas
 // Declara 3 notas decimales:
 // Calcula el promedio
 // Redondea el resultado usando Math.round()
 function promedioNotas(){
-
+    let nota1 = 4.5;
+    let nota2 = 6.7;
+    let nota3 = 5.8;
+    let promedio = (nota1 + nota2 + nota3)/3;
+    alert(`se tiene 3 notas ${nota1} , ${nota} y ${npta3}
+        \nEl promedio es: ${promedio}`
+    );
 };
 // 🔹 Ejercicio 4: Temperatura
 // Declara una temperatura actual en grados Celsius:
@@ -49,24 +57,32 @@ function calcularSueldo(){
 // Calcula la división
 // Calcula el módulo (%)
 // Explica el resultado en consola
+function declararNumeros(){
 
+}
 // 🔹 Ejercicio 7: Comparación de números
 // Declara dos números:
 // Muestra si el primero es mayor que el segundo
 // Verifica si uno de ellos es igual a 10
+function comparacionNumerica(){
 
+}
 // 🔹 Ejercicio 8: Notación científica aplicada
 // Declara:
 // Una población usando notación científica (ej: 1e6)
 // Divide esa población en 4 grupos
 // Muestra el resultado
+function notacionCientifica(){
 
+}
 // 🔹 Ejercicio 9: Potencia y cálculo combinado
 // Calcula:
 // 3 elevado a 4
 // Luego multiplícalo por 2
 // Resta 10 al resultado final
+function pontenciaCalculo(){
 
+}
 // 🔹 Ejercicio 10: Dado aleatorio 🎲
 // Simula el lanzamiento de un dado:
 // Genera un número entre 1 y 6
