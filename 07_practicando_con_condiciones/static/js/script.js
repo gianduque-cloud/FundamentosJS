@@ -1,3 +1,4 @@
+////////////////ESTUDIAR\\\\\\\\\\\\\\\\\\\
 // EJERCICIO 11
 // Resultado esperado en alert:
 // `El estudiante Juan tiene nota 6.5 y su resultado es: Excelente rendimiento`

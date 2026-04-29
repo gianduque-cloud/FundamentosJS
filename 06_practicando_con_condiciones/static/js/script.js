@@ -1,5 +1,7 @@
 console.log("conexion exitosa con js...")
 
+///////////////////ESTUDIAR\\\\\\\\\\\\\\\\\\\\\\\
+
 // Resultado esperado en alert:
 // "Bienvenido Juan"
 
