@@ -19,7 +19,7 @@ function edadProyectada() {
 // Muestra el resultado
 
 function compraDescuento() {
-    let precio = 25000;{
+    let precio = 25000;
 alert(`El precio es de: ${precio}
     \nPero con descuento: ${precio - (precio * 0.20)}}`); //alerta en pantalla
 }
