@@ -66,5 +66,4 @@ function ejercicio15() {
     let descuento = 0.1
     alert(`El producto ${producto.toUpperCase()}
     tiene un precio final de $${precio -(precio * descuento)}`)
-
 }
