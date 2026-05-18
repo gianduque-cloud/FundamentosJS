@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 10px;
+    background-color: #fff;
+}
+
+.textoFinal{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(224, 218, 218);
+    margin: 10px;
+}
+
