@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Impact', sans-serif;
+    color: #fff;
+}
+
+/* Barra de navegación */
+.navbar {
+    padding: 15px 40px;
+}
+
+/* Logo */
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Icono logo */
+.logo i {
+    margin-right: 8px;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
