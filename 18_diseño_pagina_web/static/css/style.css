@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+.td{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
