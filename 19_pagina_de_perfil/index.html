@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina de perfil</title>
     <link rel="stylesheet" href="static/style.css">
 </head>
+
 <body>
-    <section>
-        <header class="barra-navegacion">
+
+    <header class="barra-navegacion">
         <div class="logotipo">Perfil<span class="blue">.</span></div>
         <div class="nav">
             <a href="#">Inicio</a>
@@ -16,18 +18,50 @@
             <a href="#">Conexiones</a>
             <button class="boton-principal">Cerrar sesion</button>
         </div>
-        </header>
-        <div class="box-1">
-        </div>
-        <div class="box-2">
-            <img src="" alt="">
-            <h1>Gian Duque</h1>
-            <p style="color: rgb(84, 84, 84);font-size: 1rem;">Santiago, Chile</p>
-            <p>Estudiante de programacion
-                reconociendo y aprendiendo en HTML,CSS, JavaScript
-            </p>
-            <a href="#"><b>Editar perfil</b></a>
-        </div>
-    </section>
+    </header>
+    <main class="main">
+        <section class="columna-izquierda">
+            <section class="seccion-1">
+                <div class="box-1">
+                </div>
+                <div class="box-2">
+                    <img class="img-principal" src="static/images/user-icon.png">
+                    <h1 class="txt">Gian Duque</h1>
+                    <p style="color: rgb(84, 84, 84);font-size: 1rem;">Santiago, Chile</p>
+                    <p class="txt">Estudiante de programacion
+                        reconociendo y aprendiendo en HTML,CSS, JavaScript
+                    </p>
+                    <a class="txt" href="#"><b>Editar perfil</b></a>
+                </div>
+            </section>
+        </section>
+        <section class="columna-derecha">
+            <section class="conexiones">
+                <div class="tag1">
+                    <h1>Solicitudes de conexión</h1>
+                    <button class="boton-principal">ver todas</button>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>Ephimare</p>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>abrOrecia._01</p>
+                </div>
+                <div class="tag2">
+                    <h1>Tus conexiones</h1>
+                    <button class="boton-principal">ver todas</button>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>komikitto</p>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>h3roiii</p>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>becOme.a.shitt</p>
+                    <img class="img-secu" src="static/images/user-icon.png" alt="">
+                    <p>aaameriika</p>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
 </body>
+
 </html>
