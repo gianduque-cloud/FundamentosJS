@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
@@ -33,14 +34,23 @@ body{
     margin: 0px 50px 0px 50px;
     border-radius: 0px 0px 10px 10px;
     height: 300px;
+    box-shadow: 0px 4px 8px rgb(168, 168, 168);
 }
 
 .boton-principal{
-    background-color: rgb(80, 131, 227);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(20, 118, 229);
+    color: rgb(20, 118, 229);
+}
+
+.boton-arriba{
+    background-color: rgb(51, 131, 222);
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 .logotipo{
@@ -64,7 +74,7 @@ a{
     /*Se ancla exactamente a la esquina superior derecha 
     de la ventana modal*/
     top: 160px;
-    right: 850px;
+    right: 825px;
     background-color: rgb(187, 187, 187);
     color: white;
     width: 160px;
@@ -84,13 +94,13 @@ a{
 }
 
 .main{
-display: flex;
+    display: flex;
 }
 .columna-izquierda{
-flex:2;
+    flex:2;
 }
 .columna-derecha{
-flex:1;
+    flex:1;
 }
 
 .img-secu{
@@ -102,4 +112,38 @@ flex:1;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgb(168, 168, 168);
     border: 2px solid white;
+}
+
+.tag1{
+    background-color: aliceblue;
+    box-shadow: 0px 4px 8px rgb(168, 168, 168);
+    margin: 40px 40px 5px 5px;
+    border-radius: 10px;
+}
+
+.tag2{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(168, 168, 168);
+    margin: 40px 40px 5px 5px;
+
+}
+
+.TT{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila-contacto{
+    display: flex;
+    align-items: center;
+}
+
+.caja-botones{
+    display: flex;
 }
