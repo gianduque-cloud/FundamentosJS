@@ -39,6 +39,15 @@ body {
     
 }
 
+.Boton_Perfil{
+    background-color: rgb(83, 163, 255);
+    border:none;
+    color:white;
+    border-radius: 5px;
+    width:120px;
+    height:35px;
+}
+
 .Sesion{
     display:flex;
     text-align:center;
